@@ -1,0 +1,232 @@
+.Topstory-container, .Question-main, .Search-container, .Profile-main, .ContentLayout {
+	padding-left: 0;
+	width: unset;
+	padding-right: 0;
+}
+.Topstory-container, .ContentLayout{
+	margin: 0 auto;
+}
+.Topstory-mainColumn, .Question-mainColumn, #SearchMain, .Profile-mainColumn, .ContentLayout-mainColumn {
+	margin-right: 0;
+	width: 100%;
+	padding-left: 60px;
+	box-sizing: border-box;
+}
+.TopstoryMain{
+	width: 100%;
+}
+.QuestionHeader{
+	margin-left: 60px;
+	min-width: unset;
+}
+.QuestionHeader-content{
+	padding: 0;
+	width: 100%;
+}
+.QuestionHeader-footer-inner {
+	padding: 0;
+}
+.tb-no-touch {
+	touch-action: none;
+}
+.tb-mask {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: 0.3;
+	display: none;
+	z-index: 1;
+}
+.tb-mask.tb-show {
+	display: block
+}
+.tb-left-side {
+	display: block !important;
+	top: 0;
+	width: 50px;
+	height: 100%;
+	position: fixed;
+	background-color: #fff;
+	overflow: hidden;
+	z-index: 2;
+}
+.tb-left-side.tb-complete {
+	width: 230px;
+}
+.tb-left-side .tb-ls-button {
+	display: block;
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	box-sizing: border-box;
+	white-space: nowrap;
+}
+.tb-left-side .tb-ls-button svg {
+	color: #0084ff !important;
+	width: 100% !important;
+	height: 100% !important;
+}
+.tb-left-side .tb-ls-button span {
+	display: inline-block;
+	position: relative;
+	width: 158px;
+	left: 17px;
+	bottom: 9px;
+	font-size: 15px;
+}
+.tb-left-side .tb-ls-button .SearchBarExperiment-tool {
+	top: -31px;
+	left: 41px;
+	float: none;
+	overflow: unset;
+}
+.tb-left-side .tb-ls-button .SearchBarExperiment-input {
+	width: 168px;
+	padding-left: 12px;
+}
+.tb-left-side .tb-ls-button .Input-after {
+	display: none;
+}
+.tb-left-side .tb-bottom-side {
+	width: 100%;
+	border-top: 1px solid #cecece;
+	position: absolute;
+	bottom: 0px;
+	background-color: #fff;
+}
+.tb-left-side .tb-bottom-side .tb-bottom-btn {
+	width: 50px;
+	height: 50px;
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.tb-left-side .tb-bottom-side .tb-bottom-btn svg {
+	width: 100% !important;
+	height: 100% !important;
+}
+.tb-left-side .tb-bottom-side .tb-bottom-btn > button {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.tb-right-side {
+	top: 0;
+	width: 296px;
+	height: 100%;
+	position: fixed;
+	right: -300px;
+	background-color: #f6f6f6;
+	transition: transform 0.3s;
+	overflow: scroll;
+	border-left: 4px solid #cecece;
+}
+.tb-right-side .tb-tip{
+	text-align:center;
+	margin-bottom:-12px;
+	font-size:10px;
+	line-height:2;
+	background-color:#fff;
+	color:#8590a6;
+}
+.tb-right-side.tb-show {
+	display: block;
+	transform: translateX(-300px);
+}
+.Footer, .GlobalSideBar .Footer {
+	padding-left: 21px;
+}
+.ContentItem-rightButton {
+	margin-right: 50px;
+}
+.Comments-Packup-Button {
+	left: unset !important;
+	right: 60px;
+	bottom: 11px;
+	height: 40px;
+	width: 105px;
+	border-radius: 4px;
+}
+.Popover-content{
+	box-shadow: 0 5px 20px rgba(26, 26, 26, 0.5);
+}
+.center-popover .Popover-content {
+	top: 50% !important;
+	left: 50% !important;
+	transform: translate(-50%, -50%);
+	margin: 0 !important;
+}
+.center-popover .Popover-content .Popover-arrow{
+	display: none;
+}
+.Card.Banner {
+	display: none;
+}
+.SearchTabs {
+	background-color: #f6f6f6;
+	box-shadow: none;
+	padding-top: 0;
+}
+.SearchTabs-inner {
+	padding-left: 60px;
+	width: 100%;
+	box-sizing: border-box;
+}
+.SearchTabs-actions {
+	width: 100%;
+	background-color: #fff;
+	box-shadow: 0 1px 3px rgba(26,26,26,.1);
+}
+.SearchSections{
+	width: unset;
+}
+#ProfileHeader {
+	padding-left: 60px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 0;
+    margin-top: 0;
+}
+
+.zhihutablet .Post-content {
+	min-width: unset;
+}
+.zhihutablet .ColumnPageHeader-content {
+	width: 100%;
+	box-sizing: border-box;
+}
+.tb-right-side .Sticky.is-fixed, .zhihutablet .Sticky.is-fixed{
+	position: static;
+	width: unset !important;
+}
+.tb-right-side .Sticky--holder, .zhihutablet .Sticky--holder{
+	display: none !important;
+}
+.zhihutablet .ColumnPageHeader-content > .ColumnPageHeader-Title, .zhihutablet .ColumnPageHeader-FollowButton{
+	display: none;
+}
+.zhihutablet .ColumnPageHeader-FollowButton.tb-app {
+	display: inline-block;
+}
+.zhihutablet .Recommendations-List{
+	justify-content: unset;
+	overflow-x: scroll;
+	transform: translateX(-20px);
+}
+.zhihutablet .PagingButton-Previous{
+	margin-left: 40px;
+    margin-right: 20px;
+}
+.zhihutablet .PagingButton-Next{
+	margin-left: 7px;
+    margin-right: 20px;
+}
+.zhihutablet .PagingButton svg{
+    width: 48px;
+    height: 48px;
+}
+.zhihutablet .Post-SideActions{
+	display: none;
+}
