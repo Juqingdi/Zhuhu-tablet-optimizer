@@ -18,7 +18,6 @@
 ![](/screenshots/3.png)<br><br>
 ![](/screenshots/4.png)<br>
 
-<br>
 PS：实际上本插件在竖屏模式下也能用，但不保证效果。竖屏时建议还是用知乎官方app吧。<br>
-
+<br>
 [点击前往谷歌插件地址](https://chrome.google.com/webstore/detail/%E7%9F%A5%E4%B9%8E%E5%AE%89%E5%8D%93%E5%B9%B3%E6%9D%BF%E7%AB%AF%E4%BC%98%E5%8C%96-for-yandex/felgfbgneplangkgkcdplofccdicjaeb)
