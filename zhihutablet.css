@@ -76,13 +76,13 @@
 	bottom: 9px;
 	font-size: 15px;
 }
-.tb-left-side .tb-ls-button .SearchBarExperiment-tool {
+.tb-left-side .tb-ls-button .SearchBar-tool {
 	top: -31px;
 	left: 41px;
 	float: none;
 	overflow: unset;
 }
-.tb-left-side .tb-ls-button .SearchBarExperiment-input {
+.tb-left-side .tb-ls-button .SearchBar-input {
 	width: 168px;
 	padding-left: 12px;
 }
